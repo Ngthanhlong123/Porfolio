@@ -1,0 +1,163 @@
+@media (max-width: 739px)
+{
+    .hide-on-mobile{
+        display: none;
+    }
+    .grid{
+        width: 100%;
+    }
+    .row{
+        margin: 0;
+    }
+    .col{
+        padding: 0;
+    }
+
+    .c-12{
+        width: 100%;
+    }
+    .c-6{
+        width: 50%;
+    }
+    .header{
+        padding: 0 18px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .header__wp-ava-name{
+        margin-left: 0;
+    }
+
+    .header__logo-text{
+        width: 80px;
+        overflow: hidden;
+        height: var(--header-height);
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+    }
+    .header__wp-bar{
+        display: block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: var(--bg-color);
+        box-shadow: var(--box-shadow);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header__wp-bar i{
+        color: red;
+    }
+
+    .header__wp-bar:hover{
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    
+    .body__wp-intro{
+        flex-direction: column-reverse;
+    }
+    .body__box-right{
+        display: block;
+        margin: 0;
+        width: 100%;
+    }
+    .body__wp-img{
+        margin: 0 auto;
+    }
+    .body__box-left{
+        margin-top: var(--header-height);
+        width: 100%;
+        padding: 0 20px;
+    }
+    
+    .body__title{
+        font-size: 35px;
+    }
+    .body__defaut-text{
+        font-size: 20px;
+        margin-right: 6px;
+        transform: translateY(3.5px);
+    }
+    .body__ani-text{
+        font-size: 30px;
+    }
+
+    .body__btn-dowload{
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .body__wp-projects{
+        padding: 0 16px;
+    }
+
+    .wp-projects__items{
+        padding-bottom: 50px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .wp-projects__item{
+        margin-top: 16px;
+    }
+
+    .wp-projects__title{
+        margin-top: 100px;
+        padding-left: 20px;
+    }
+
+    .wp-tech__title{
+        margin-top: 100px;
+        padding: 0 20px;
+    }
+    .wp-tech__group{
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0 20px;
+    }
+    .wp-additional__title{
+        margin-top: 100px;
+        padding: 0 20px;
+    }
+
+    .wp-additional__content{
+        padding: 0 20px;
+    }
+
+    .body__wp-about{
+        margin-top: 100px;
+        margin-bottom: 50px;
+        padding: 0 20px;
+    }
+
+    .mobile-about__wp-content{
+        display: block;
+    }
+
+    .wp-additional__skill{
+        padding-right: 0;
+    }
+
+    .wp-additional__content{
+        margin-top: 30px;
+    }
+}
+
+/* ipad */
+@media (min-width: 740px) and (max-width: 1023px)
+{
+    .grid{
+        width: 684px;
+    }
+}
+
+
+/* laptop - pc */
+@media(min-width: 1024px) and (max-width: 1239px)
+{
+    .grid{
+        width: 984px;
+    }
+}
