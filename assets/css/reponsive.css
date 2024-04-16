@@ -76,13 +76,17 @@
     .body__title{
         font-size: 35px;
     }
+    .body__sub-title
+    {
+        display: block;
+    }
     .body__defaut-text{
-        font-size: 20px;
+        font-size: 28px;
         margin-right: 6px;
-        transform: translateY(3.5px);
     }
     .body__ani-text{
-        font-size: 30px;
+        margin-top: 15px;
+        font-size: 28px;
     }
 
     .body__btn-dowload{
